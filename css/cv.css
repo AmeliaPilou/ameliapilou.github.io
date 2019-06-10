@@ -79,3 +79,12 @@ body { padding-top: 50px; }
 @media (min-width: 1200px) { #parcours .date { width: 13%; }
                              #parcours .details { width: 87%; }
 }
+
+/******************************************
+*     Expériences professionnelles
+******************************************/
+.experience { display:flex; margin-bottom: 15px; }
+.experience .lieu { font-size: 1.1em; font-weight: bold; }
+.experience .date { font-size: 1em; opacity: 0.7; }
+.experience .profession { font-size: 1.45em; font-weight: bold; margin-top: -6px; }
+.experience .details { font-size: 1.2em; line-height: 1.5em; }
