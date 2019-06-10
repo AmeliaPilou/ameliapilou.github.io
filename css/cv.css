@@ -44,3 +44,38 @@ body { padding-top: 50px; }
 .rubrique h2 { color: rgb(226,0,26); }
 .rubrique h2::before{ margin-right: 5px; }
 .rubrique p{ font-size: 1.3em; line-height: 1.5em; }
+
+/******************************************
+*     Parcours scolaire
+******************************************/
+#parcours { margin-top: 20px; position: relative; padding: 1em 0; list-style: none; }
+#parcours::before { width: 5px; height: 100%; position: absolute; left: 7.8px; top: 0; 
+                    display: block; background: linear-gradient(to bottom, #ffffff 0%, 
+                    #E2001A 7%, #E2001A, #ffffff 100%); content:""; }
+#parcours li { width: 100%; z-index: 2; position: relative; float: left; }
+#parcours .date .glyphicon-record::before { background: #FFFFFF; color: #555; }
+#parcours .date { width: 75px; background-color: rgba(0, 0, 0, 0); font-size: 1.5em; 
+                  font-weight: 700; display: inline-block; }
+#parcours .details { width: 325px; display: inline-block; background: #eee;
+                     position: relative; padding: 10px 10px 0 10px; 
+                     border-bottom: 1px solid #ddd; margin: -4px -12px 20px 0; }
+#parcours .details::after { content: ''; position: absolute; top: 15px; right: 0; 
+                            left: -16px; height: 0; width: 0; border: solid transparent; 
+                            border-right-color: #eee; border-width: 8px; 
+                            pointer-events: none; }
+#parcours .details h3{ font-size: 1.5em; margin: 0; padding: 0; font-weight: 700; }
+#parcours .details p{ font-size: 1.3em; margin-top: 5px; padding: 0; }
+
+/* Pour empècher la déformation du parcours scolaire selon la STA */
+@media (min-width: 500px) { #parcours .date { width: 20%; }
+                            #parcours .details { width: 80%; } 
+}
+@media (min-width: 768px) { #parcours .date { width: 25%; }
+                            #parcours .details { width: 75%; }
+}
+@media (min-width: 992px) { #parcours .date { width: 17%; }
+                            #parcours .details { width: 83%; }
+}
+@media (min-width: 1200px) { #parcours .date { width: 13%; }
+                             #parcours .details { width: 87%; }
+}
