@@ -36,3 +36,11 @@ body { padding-top: 50px; }
     content: '';
     display: block;
 }
+
+/****************************************
+*     Rubriques
+****************************************/
+.rubrique { margin-bottom: 15px; }
+.rubrique h2 { color: rgb(226,0,26); }
+.rubrique h2::before{ margin-right: 5px; }
+.rubrique p{ font-size: 1.3em; line-height: 1.5em; }
