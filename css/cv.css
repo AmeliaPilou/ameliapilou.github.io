@@ -51,7 +51,7 @@ body { padding-top: 50px; }
 #parcours { margin-top: 20px; position: relative; padding: 1em 0; list-style: none; }
 #parcours::before { width: 5px; height: 100%; position: absolute; left: 7.8px; top: 0; 
                     display: block; background: linear-gradient(to bottom, #ffffff 0%, 
-                    #E2001A 7%, #E2001A, #ffffff 100%); content:""; }
+                        #E2001A 7%, #E2001A, #ffffff 100%); content:""; }
 #parcours li { width: 100%; z-index: 2; position: relative; float: left; }
 #parcours .date .glyphicon-record::before { background: #FFFFFF; color: #555; }
 #parcours .date { width: 75px; background-color: rgba(0, 0, 0, 0); font-size: 1.5em; 
@@ -101,9 +101,25 @@ body { padding-top: 50px; }
                 margin: 2px 0; }
 .meContacter a, .meContacter a:hover { text-decoration: none; color: black; }
 .meContacter a:hover>img { 
-  filter: grayscale(0);
-  -webkit-filter: grayscale(0);
-  -moz-filter: grayscale(0);
-  -ms-filter: grayscale(0);
-  -o-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
 }
+
+/******************************************
+*     Compétences 
+******************************************/
+#competences .container { display: flex; flex-direction: row; justify-content: space-between; }
+#competences .container .libelle { font-size: 1.3em; }
+#competences .container .classement {
+    background: scroll transparent url(images/Red-Rating-Stars.png) no-repeat;
+    width: 160px; height: 27px; 
+}
+#competences .container .classement0 { background-position: 0 -142px; }
+#competences .container .classement1 { background-position: 0 -112px; }
+#competences .container .classement2 { background-position: 0 -84px; }
+#competences .container .classement3 { background-position: 0 -56px; }
+#competences .container .classement4 { background-position: 0 -28px; }
+#competences .container .classement5 { background-position: 0 0px; }
