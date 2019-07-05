@@ -101,13 +101,12 @@ body { padding-top: 50px; }
                 margin: 2px 0; }
 .meContacter a, .meContacter a:hover { text-decoration: none; color: black; }
 .meContacter a:hover>img { 
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-    -o-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
 }
-
 /******************************************
 *     Compétences 
 ******************************************/
@@ -123,3 +122,11 @@ body { padding-top: 50px; }
 #competences .container .classement3 { background-position: 0 -56px; }
 #competences .container .classement4 { background-position: 0 -28px; }
 #competences .container .classement5 { background-position: 0 0px; }
+
+/******************************************
+*     Langues
+******************************************/
+#langues .container { display: flex; flex-direction: row; justify-content: space-between; }
+#langues .langue { font-size: 1em; padding-top: 3px; width: min-content; display: flex; }
+#langues .niveau { font-size: 1.2em; }
+.meContacter .details { width: 100%; justify-content: space-between; }
