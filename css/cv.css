@@ -93,8 +93,8 @@ body { padding-top: 50px; }
 *     Me contacter
 ******************************************/
 .meContacter { clear: both; }
-.meContacter .details { width: 80%; margin-left: 10px; margin-top: 3px;
-                        font-size: 1.5em; font-weight: 700; }
+.meContacter .details { width: 100%; margin-left: 10px; margin-top: 3px;
+                        font-size: 1.5em; font-weight: 700; justify-content: space-between; }
 .contact-icon { filter: grayscale(1); -webkit-filter: grayscale(1);
                 -moz-filter: grayscale(1); -ms-filter: grayscale(1);
                 -o-filter: grayscale(1); height: 32px; width: 32px; 
@@ -129,4 +129,3 @@ body { padding-top: 50px; }
 #langues .container { display: flex; flex-direction: row; justify-content: space-between; }
 #langues .langue { font-size: 1em; padding-top: 3px; width: min-content; display: flex; }
 #langues .niveau { font-size: 1.2em; }
-.meContacter .details { width: 100%; justify-content: space-between; }
