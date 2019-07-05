@@ -88,3 +88,10 @@ body { padding-top: 50px; }
 .experience .date { font-size: 1em; opacity: 0.7; }
 .experience .profession { font-size: 1.45em; font-weight: bold; margin-top: -6px; }
 .experience .details { font-size: 1.2em; line-height: 1.5em; }
+
+/******************************************
+*     Langues
+******************************************/
+#langues .container { display: flex; flex-direction: row; justify-content: space-between; }
+#langues .langue, #langues .niveau{ font-size: 1.3em; }
+#langues .langue { padding-top: 3px; }
