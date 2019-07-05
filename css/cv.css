@@ -101,12 +101,18 @@ body { padding-top: 50px; }
                 margin: 2px 0; }
 .meContacter a, .meContacter a:hover { text-decoration: none; color: black; }
 .meContacter a:hover>img { 
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-    -o-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
 }
+/******************************************
+*     Langues
+******************************************/
+#langues .container { display: flex; flex-direction: row; justify-content: space-between; }
+#langues .langue, #langues .niveau{ font-size: 1.3em; }
+#langues .langue { padding-top: 3px; }
 
 /******************************************
 *     Compétences 
