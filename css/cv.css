@@ -90,6 +90,24 @@ body { padding-top: 50px; }
 .experience .details { font-size: 1.2em; line-height: 1.5em; }
 
 /******************************************
+*     Me contacter
+******************************************/
+.meContacter { clear: both; }
+.meContacter .details { width: 80%; margin-left: 10px; margin-top: 3px;
+                        font-size: 1.5em; font-weight: 700; }
+.contact-icon { filter: grayscale(1); -webkit-filter: grayscale(1);
+                -moz-filter: grayscale(1); -ms-filter: grayscale(1);
+                -o-filter: grayscale(1); height: 32px; width: 32px; 
+                margin: 2px 0; }
+.meContacter a, .meContacter a:hover { text-decoration: none; color: black; }
+.meContacter a:hover>img { 
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+}
+/******************************************
 *     Langues
 ******************************************/
 #langues .container { display: flex; flex-direction: row; justify-content: space-between; }
