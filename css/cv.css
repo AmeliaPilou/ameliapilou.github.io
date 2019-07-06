@@ -129,3 +129,10 @@ body { padding-top: 50px; }
 #langues .container { display: flex; flex-direction: row; justify-content: space-between; }
 #langues .langue { font-size: 1em; padding-top: 3px; width: min-content; display: flex; }
 #langues .niveau { font-size: 1.2em; }
+
+/******************************************
+*     Passions
+******************************************/
+.passion{ color: #fff; display: inline-block; margin-right: 5px;
+          margin-bottom: 5px; padding: 5px 5px 5px 5px; background: #000;
+          position: relative; font-size: 1.2em; border-radius: 10px; }
