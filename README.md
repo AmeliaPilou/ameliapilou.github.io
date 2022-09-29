@@ -28,12 +28,12 @@
 
 ##### 3. Pour l'épreuve E5
 
- - J'héberge les documents présentant le contexte de mes PPE
- - J'héberge le code source de mes PPE
+ - J'héberge les documents présentant le contexte de mes AP
+ - J'héberge le code source de mes AP
  - J'héberge mes productions (compte-rendus, documentations techniques, documentations utilisateurs, ...)
  - J'ajoute des liens vers les applications téléchargeables ou testables en ligne
 
-##### 4. Pour mon identitité numérique
+##### 4. Pour mon identité numérique
 
  - Cela fait un point d'entrée professionnel à donner lorsque je postule à un stage, à une poursuite d'études ou à un emploi
  - Cela permettra de me faire référencer par les moteurs de recherches (là aussi si on me recherche suite à ma rencontre ou à la reception de mon CV)
