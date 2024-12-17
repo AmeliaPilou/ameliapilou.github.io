@@ -13,7 +13,7 @@
   - **Git** : Logiciel de gestion de version
   - **GitHub** : Forge logicielle en ligne utilisant Git
 
-##### 2. Pour l'épreuve E4
+##### 2. Pour l'épreuve E5
 
  - Je me présente et présente mon parcours, j'affiche mon CV
  - Je parle des projets que j'ai réalisé, je bascule sur les pages correspondantes
@@ -26,7 +26,7 @@
     - Gestion de version, développement collaboratif et gestion d'incidents
  - Je présente la façon dont j'organise ma veille et la façon dont je m'en sert
 
-##### 3. Pour l'épreuve E5
+##### 3. Pour l'épreuve E6
 
  - J'héberge les documents présentant le contexte de mes AP
  - J'héberge le code source de mes AP
